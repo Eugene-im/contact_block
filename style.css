@@ -1,7 +1,16 @@
 .navbar {
     margin-bottom: 5px;
+    align-items: flex-start;
 }
 
 .navbar-brand{
-    width: 1000px;
+    white-space: normal;
+    text-align: left;
+}
+.navbar-nav{
+    padding-left: 15px;
+}
+
+.navbar-toggler{
+    align-self: center;
 }
