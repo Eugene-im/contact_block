@@ -3,14 +3,40 @@
     align-items: flex-start;
 }
 
-.navbar-brand{
+.navbar-brand {
     white-space: normal;
     text-align: left;
 }
-.navbar-nav{
+.navbar-nav {
     padding-left: 15px;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     align-self: center;
+}
+
+button svg {
+    width: 26px;
+}
+
+button svg path {
+    fill: #fff;
+}
+
+a.navbar-brand {
+    font-weight: 300;
+}
+span.navbar-brand {
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 500px) {
+    a.navbar-brand,
+    span.navbar-brand {
+        font-size: 14px;
+    }
 }

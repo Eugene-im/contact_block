@@ -1,401 +1,857 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-dark bg-primary">
-        <a class="navbar-brand col-3" href="#">Голова суду</a>
-        <span class="navbar-brand col-4"> Кузьмишин Віталій Миколайович</span>
-        
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="phone.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        </button>
-    
-        <div class="navbar-collapse collapse" id="navbarColor01">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">+380 (432) 55 15 20</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">біографія</a>
-            </li>
-          </ul>
-          
-        </div>
-    </nav>
+  <nav class="navbar navbar-dark bg-primary">
+    <a class="navbar-brand col-3" href="#">Голова суду</a>
+    <span class="navbar-brand col-4"> Кузьмишин Віталій Миколайович</span>
 
-    <nav class="navbar navbar-dark bg-primary wrap-normal">
-        <a class="navbar-brand" href="#">Заступник Голови суду</a>
-        <span class="navbar-brand"> Совгира Дмитро Іванович</span>
-        
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="phone.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        </button>
-    
-        <div class="navbar-collapse collapse" id="navbarColor02">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">(0432) 55-15-05</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">біографія</a>
-            </li>
-          </ul>
-          
-        </div>
-    </nav>
-      
-    <nav class="navbar navbar-dark bg-primary wrap-normal">
-        <a class="navbar-brand" href="#">Керівник апарату</a>
-        <span class="navbar-brand">Мілієнко Олена Анатоліївна</span>
-        
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="phone.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        </button>
-    
-        <div class="navbar-collapse collapse" id="navbarColor03">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">(0432) 55-75-04</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">біографія</a>
-            </li>
-          </ul>
-          
-        </div>
-    </nav>
-    
-    <nav class="navbar navbar-dark bg-primary wrap-normal">
-        <a class="navbar-brand" href="#">Заступник керівника апарату суду</a>
-        <span class="navbar-brand">Юргілевич Ярослав Ромуальдович</span>
-        
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor04" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="phone.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        </button>
-    
-        <div class="navbar-collapse collapse" id="navbarColor04">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">(0432) 55-15-20</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">біографія</a>
-            </li>
-          </ul>
-          
-        </div>
-    </nav>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor01"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+        <path
+          d="M298.667,25.6h-85.333c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h85.333    c4.71,0,8.533-3.823,8.533-8.533C307.2,29.423,303.377,25.6,298.667,25.6z" />
+        <path
+          d="M358.4,25.6h-8.533c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h8.533    c4.71,0,8.533-3.823,8.533-8.533C366.933,29.423,363.11,25.6,358.4,25.6z" />
+        <path
+          d="M266.598,435.2H245.41c-12.979,0-23.543,10.564-23.543,23.543v4.122c0,12.979,10.564,23.535,23.535,23.535h21.188    c12.979,0,23.543-10.556,23.543-23.535v-4.122C290.133,445.764,279.569,435.2,266.598,435.2z M273.067,462.865    c0,3.567-2.901,6.468-6.468,6.468H245.41c-3.575,0-6.477-2.901-6.477-6.468v-4.122c0-3.575,2.901-6.477,6.477-6.477h21.18    c3.576,0,6.477,2.901,6.477,6.477V462.865z" />
+        <path
+          d="M370.227,0H141.781c-17.007,0-30.848,13.841-30.848,30.848v450.304c0,17.007,13.841,30.848,30.848,30.848h228.437    c17.007,0,30.848-13.841,30.848-30.839V30.848C401.067,13.841,387.226,0,370.227,0z M384,481.152    c0,7.595-6.178,13.781-13.773,13.781H141.781c-7.603,0-13.781-6.187-13.781-13.773V30.848c0-7.595,6.178-13.781,13.781-13.781    h228.437c7.603,0,13.781,6.187,13.781,13.781V481.152z" />
+        <path
+          d="M392.533,51.2H119.467c-4.71,0-8.533,3.823-8.533,8.533v358.4c0,4.71,3.823,8.533,8.533,8.533h273.067    c4.71,0,8.533-3.823,8.533-8.533v-358.4C401.067,55.023,397.244,51.2,392.533,51.2z M384,409.6H128V68.267h256V409.6z" />
+      </svg>
 
-    <nav class="navbar navbar-dark bg-primary wrap-normal">
-        <a class="navbar-brand" href="#">Заступник керівника апарату суду</a>
-        <span class="navbar-brand">Кравчук Олександр Юрійович</span>
-        
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor05" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="phone.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        </button>
-    
-        <div class="navbar-collapse collapse" id="navbarColor05">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">(0432) 55-15-20</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">біографія</a>
-            </li>
-          </ul>
-          
-        </div>
-    </nav>
+    </button>
 
-    <nav class="navbar navbar-dark bg-primary wrap-normal">
-        <a class="navbar-brand col-3" href="#">Начальник відділу
-            забезпечення діяльності Голови суду та його заступника</a>
-        <span class="navbar-brand col-4">Поліщук Наталя Іванівна</span>
-        
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor06" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="phone.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        </button>
-    
-        <div class="navbar-collapse collapse" id="navbarColor06">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">(0432) 55-75-14</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">біографія</a>
-            </li>
-          </ul>
-          
-        </div>
-    </nav>
+    <div class="navbar-collapse collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">+380 (432) 55 15 20</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
+        </li>
 
-    <nav class="navbar navbar-dark bg-primary wrap-normal">
-        <a class="navbar-brand" href="#">Начальник відділу
-            звернень, внутрішньої та зовнішньої комунікації</a>
-        <span class="navbar-brand">Грубар Дмитро Олександрович</span>
-        
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor07" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="phone.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        </button>
-    
-        <div class="navbar-collapse collapse" id="navbarColor07">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">(0432) 55-15-20</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">біографія</a>
-            </li>
-          </ul>
-          
-        </div>
-    </nav>
+        <li class="nav-item">
+          <a class="nav-link" href="#">біографія</a>
+        </li>
+      </ul>
 
-    <nav class="navbar navbar-dark bg-primary wrap-normal">
-        <a class="navbar-brand" href="#">Начальник відділу
-            надання інформаційних послуг, руху адміністративних справ та діловодства суду</a>
-        <span class="navbar-brand">Матюха Володимир Васильович</span>
-        
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor08" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="phone.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        </button>
-    
-        <div class="navbar-collapse collapse" id="navbarColor08">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">(0432) 55-15-20</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">біографія</a>
-            </li>
-          </ul>
-          
-        </div>
-    </nav>
-   
-    <nav class="navbar navbar-dark bg-primary wrap-normal">
-        <a class="navbar-brand" href="#">Начальник відділу
-            забезпечення судового процесу</a>
-        <span class="navbar-brand">Заболотна Ольга Дмитрівна</span>
-        
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor09" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="phone.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        </button>
-    
-        <div class="navbar-collapse collapse" id="navbarColor09">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">(0432) 55-15-20</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">біографія</a>
-            </li>
-          </ul>
-          
-        </div>
-    </nav>
+    </div>
+  </nav>
 
-    <nav class="navbar navbar-dark bg-primary wrap-normal">
-        <a class="navbar-brand" href="#">Начальник відділу
-            бухгалтерського обліку та звітності</a>
-        <span class="navbar-brand">Ватаманюк Тетяна Пилипівна</span>
-        
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor10" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="phone.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        </button>
-    
-        <div class="navbar-collapse collapse" id="navbarColor10">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">(0432) 55-75-03</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">біографія</a>
-            </li>
-          </ul>
-          
-        </div>
-    </nav>
+  <nav class="navbar navbar-dark bg-primary wrap-normal">
+    <a class="navbar-brand col-3" href="#">Заступник Голови суду</a>
+    <span class="navbar-brand col-4"> Совгира Дмитро Іванович</span>
 
-    <nav class="navbar navbar-dark bg-primary wrap-normal">
-        <a class="navbar-brand" href="#">Начальника відділу
-            узагальнення судової практики</a>
-        <span class="navbar-brand">Присяжна Оксана Миколаївна</span>
-        
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor11" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="phone.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        </button>
-    
-        <div class="navbar-collapse collapse" id="navbarColor11">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">(0432) 55-15-20</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">біографія</a>
-            </li>
-          </ul>
-          
-        </div>
-    </nav>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 
-    <nav class="navbar navbar-dark bg-primary wrap-normal">
-        <a class="navbar-brand" href="#">Начальник відділу
-            аналітично-статистичної роботи суду</a>
-        <span class="navbar-brand">Бакута Ірина Віталіївна</span>
-        
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor12" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="phone.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        </button>
-    
-        <div class="navbar-collapse collapse" id="navbarColor12">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">(0432) 55-75-07</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">біографія</a>
-            </li>
-          </ul>
-          
-        </div>
-    </nav>
+        <path
+          d="M298.667,25.6h-85.333c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h85.333    c4.71,0,8.533-3.823,8.533-8.533C307.2,29.423,303.377,25.6,298.667,25.6z" />
+        <path
+          d="M358.4,25.6h-8.533c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h8.533    c4.71,0,8.533-3.823,8.533-8.533C366.933,29.423,363.11,25.6,358.4,25.6z" />
+        <path
+          d="M266.598,435.2H245.41c-12.979,0-23.543,10.564-23.543,23.543v4.122c0,12.979,10.564,23.535,23.535,23.535h21.188    c12.979,0,23.543-10.556,23.543-23.535v-4.122C290.133,445.764,279.569,435.2,266.598,435.2z M273.067,462.865    c0,3.567-2.901,6.468-6.468,6.468H245.41c-3.575,0-6.477-2.901-6.477-6.468v-4.122c0-3.575,2.901-6.477,6.477-6.477h21.18    c3.576,0,6.477,2.901,6.477,6.477V462.865z" />
+        <path
+          d="M370.227,0H141.781c-17.007,0-30.848,13.841-30.848,30.848v450.304c0,17.007,13.841,30.848,30.848,30.848h228.437    c17.007,0,30.848-13.841,30.848-30.839V30.848C401.067,13.841,387.226,0,370.227,0z M384,481.152    c0,7.595-6.178,13.781-13.773,13.781H141.781c-7.603,0-13.781-6.187-13.781-13.773V30.848c0-7.595,6.178-13.781,13.781-13.781    h228.437c7.603,0,13.781,6.187,13.781,13.781V481.152z" />
+        <path
+          d="M392.533,51.2H119.467c-4.71,0-8.533,3.823-8.533,8.533v358.4c0,4.71,3.823,8.533,8.533,8.533h273.067    c4.71,0,8.533-3.823,8.533-8.533v-358.4C401.067,55.023,397.244,51.2,392.533,51.2z M384,409.6H128V68.267h256V409.6z" />
+      </svg>
+    </button>
 
-    <nav class="navbar navbar-dark bg-primary wrap-normal">
-        <a class="navbar-brand" href="#">Начальник відділу
-            матеріально-технічного та господарського забезпечення</a>
-        <span class="navbar-brand">Рудий Олег Олександрович</span>
-        
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor13" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="phone.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        </button>
-    
-        <div class="navbar-collapse collapse" id="navbarColor13">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">(0432) 55-15-12</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">біографія</a>
-            </li>
-          </ul>
-          
-        </div>
-    </nav>
+    <div class="navbar-collapse collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">(0432) 55-15-05</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
+        </li>
 
-    <nav class="navbar navbar-dark bg-primary wrap-normal">
-        <a class="navbar-brand" href="#">Начальник відділу
-            аудиту, ревізії та планово-фінансової діяльності</a>
-        <span class="navbar-brand">Савченко Олена Олегівна</span>
-        
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor14" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="phone.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        </button>
-    
-        <div class="navbar-collapse collapse" id="navbarColor14">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">(0432) 55-15-20</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">біографія</a>
-            </li>
-          </ul>
-          
-        </div>
-    </nav>
+        <li class="nav-item">
+          <a class="nav-link" href="#">біографія</a>
+        </li>
+      </ul>
 
-    <nav class="navbar navbar-dark bg-primary wrap-normal">
-        <a class="navbar-brand" href="#">Начальник відділу
-            по роботі з персоналом</a>
-        <span class="navbar-brand">Тищишина Альона Іванівна</span>
-        
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor15" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="phone.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        </button>
-    
-        <div class="navbar-collapse collapse" id="navbarColor15">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">(0432) 55-15-23</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">біографія</a>
-            </li>
-          </ul>
-          
-        </div>
-    </nav>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-dark bg-primary wrap-normal">
+    <a class="navbar-brand col-3" href="#">Керівник апарату</a>
+    <span class="navbar-brand col-4">Мілієнко Олена Анатоліївна</span>
+
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor03"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+        <path
+          d="M298.667,25.6h-85.333c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h85.333    c4.71,0,8.533-3.823,8.533-8.533C307.2,29.423,303.377,25.6,298.667,25.6z" />
+        <path
+          d="M358.4,25.6h-8.533c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h8.533    c4.71,0,8.533-3.823,8.533-8.533C366.933,29.423,363.11,25.6,358.4,25.6z" />
+        <path
+          d="M266.598,435.2H245.41c-12.979,0-23.543,10.564-23.543,23.543v4.122c0,12.979,10.564,23.535,23.535,23.535h21.188    c12.979,0,23.543-10.556,23.543-23.535v-4.122C290.133,445.764,279.569,435.2,266.598,435.2z M273.067,462.865    c0,3.567-2.901,6.468-6.468,6.468H245.41c-3.575,0-6.477-2.901-6.477-6.468v-4.122c0-3.575,2.901-6.477,6.477-6.477h21.18    c3.576,0,6.477,2.901,6.477,6.477V462.865z" />
+        <path
+          d="M370.227,0H141.781c-17.007,0-30.848,13.841-30.848,30.848v450.304c0,17.007,13.841,30.848,30.848,30.848h228.437    c17.007,0,30.848-13.841,30.848-30.839V30.848C401.067,13.841,387.226,0,370.227,0z M384,481.152    c0,7.595-6.178,13.781-13.773,13.781H141.781c-7.603,0-13.781-6.187-13.781-13.773V30.848c0-7.595,6.178-13.781,13.781-13.781    h228.437c7.603,0,13.781,6.187,13.781,13.781V481.152z" />
+        <path
+          d="M392.533,51.2H119.467c-4.71,0-8.533,3.823-8.533,8.533v358.4c0,4.71,3.823,8.533,8.533,8.533h273.067    c4.71,0,8.533-3.823,8.533-8.533v-358.4C401.067,55.023,397.244,51.2,392.533,51.2z M384,409.6H128V68.267h256V409.6z" />
+      </svg>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarColor03">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">(0432) 55-75-04</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">біографія</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-dark bg-primary wrap-normal">
+    <a class="navbar-brand col-3" href="#">Заступник керівника апарату суду</a>
+    <span class="navbar-brand col-4">Юргілевич Ярослав Ромуальдович</span>
+
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor04"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+        <path
+          d="M298.667,25.6h-85.333c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h85.333    c4.71,0,8.533-3.823,8.533-8.533C307.2,29.423,303.377,25.6,298.667,25.6z" />
+        <path
+          d="M358.4,25.6h-8.533c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h8.533    c4.71,0,8.533-3.823,8.533-8.533C366.933,29.423,363.11,25.6,358.4,25.6z" />
+        <path
+          d="M266.598,435.2H245.41c-12.979,0-23.543,10.564-23.543,23.543v4.122c0,12.979,10.564,23.535,23.535,23.535h21.188    c12.979,0,23.543-10.556,23.543-23.535v-4.122C290.133,445.764,279.569,435.2,266.598,435.2z M273.067,462.865    c0,3.567-2.901,6.468-6.468,6.468H245.41c-3.575,0-6.477-2.901-6.477-6.468v-4.122c0-3.575,2.901-6.477,6.477-6.477h21.18    c3.576,0,6.477,2.901,6.477,6.477V462.865z" />
+        <path
+          d="M370.227,0H141.781c-17.007,0-30.848,13.841-30.848,30.848v450.304c0,17.007,13.841,30.848,30.848,30.848h228.437    c17.007,0,30.848-13.841,30.848-30.839V30.848C401.067,13.841,387.226,0,370.227,0z M384,481.152    c0,7.595-6.178,13.781-13.773,13.781H141.781c-7.603,0-13.781-6.187-13.781-13.773V30.848c0-7.595,6.178-13.781,13.781-13.781    h228.437c7.603,0,13.781,6.187,13.781,13.781V481.152z" />
+        <path
+          d="M392.533,51.2H119.467c-4.71,0-8.533,3.823-8.533,8.533v358.4c0,4.71,3.823,8.533,8.533,8.533h273.067    c4.71,0,8.533-3.823,8.533-8.533v-358.4C401.067,55.023,397.244,51.2,392.533,51.2z M384,409.6H128V68.267h256V409.6z" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </svg>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarColor04">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">(0432) 55-15-20</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">біографія</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-dark bg-primary wrap-normal">
+    <a class="navbar-brand col-3" href="#">Заступник керівника апарату суду</a>
+    <span class="navbar-brand col-4">Кравчук Олександр Юрійович</span>
+
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor05"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+        <path
+          d="M298.667,25.6h-85.333c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h85.333    c4.71,0,8.533-3.823,8.533-8.533C307.2,29.423,303.377,25.6,298.667,25.6z" />
+        <path
+          d="M358.4,25.6h-8.533c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h8.533    c4.71,0,8.533-3.823,8.533-8.533C366.933,29.423,363.11,25.6,358.4,25.6z" />
+        <path
+          d="M266.598,435.2H245.41c-12.979,0-23.543,10.564-23.543,23.543v4.122c0,12.979,10.564,23.535,23.535,23.535h21.188    c12.979,0,23.543-10.556,23.543-23.535v-4.122C290.133,445.764,279.569,435.2,266.598,435.2z M273.067,462.865    c0,3.567-2.901,6.468-6.468,6.468H245.41c-3.575,0-6.477-2.901-6.477-6.468v-4.122c0-3.575,2.901-6.477,6.477-6.477h21.18    c3.576,0,6.477,2.901,6.477,6.477V462.865z" />
+        <path
+          d="M370.227,0H141.781c-17.007,0-30.848,13.841-30.848,30.848v450.304c0,17.007,13.841,30.848,30.848,30.848h228.437    c17.007,0,30.848-13.841,30.848-30.839V30.848C401.067,13.841,387.226,0,370.227,0z M384,481.152    c0,7.595-6.178,13.781-13.773,13.781H141.781c-7.603,0-13.781-6.187-13.781-13.773V30.848c0-7.595,6.178-13.781,13.781-13.781    h228.437c7.603,0,13.781,6.187,13.781,13.781V481.152z" />
+        <path
+          d="M392.533,51.2H119.467c-4.71,0-8.533,3.823-8.533,8.533v358.4c0,4.71,3.823,8.533,8.533,8.533h273.067    c4.71,0,8.533-3.823,8.533-8.533v-358.4C401.067,55.023,397.244,51.2,392.533,51.2z M384,409.6H128V68.267h256V409.6z" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </svg>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarColor05">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">(0432) 55-15-20</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">біографія</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-dark bg-primary wrap-normal">
+    <a class="navbar-brand col-3" href="#">Начальник відділу
+      забезпечення діяльності Голови суду та його заступника</a>
+    <span class="navbar-brand col-4">Поліщук Наталя Іванівна</span>
+
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor06"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+        <path
+          d="M298.667,25.6h-85.333c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h85.333    c4.71,0,8.533-3.823,8.533-8.533C307.2,29.423,303.377,25.6,298.667,25.6z" />
+        <path
+          d="M358.4,25.6h-8.533c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h8.533    c4.71,0,8.533-3.823,8.533-8.533C366.933,29.423,363.11,25.6,358.4,25.6z" />
+        <path
+          d="M266.598,435.2H245.41c-12.979,0-23.543,10.564-23.543,23.543v4.122c0,12.979,10.564,23.535,23.535,23.535h21.188    c12.979,0,23.543-10.556,23.543-23.535v-4.122C290.133,445.764,279.569,435.2,266.598,435.2z M273.067,462.865    c0,3.567-2.901,6.468-6.468,6.468H245.41c-3.575,0-6.477-2.901-6.477-6.468v-4.122c0-3.575,2.901-6.477,6.477-6.477h21.18    c3.576,0,6.477,2.901,6.477,6.477V462.865z" />
+        <path
+          d="M370.227,0H141.781c-17.007,0-30.848,13.841-30.848,30.848v450.304c0,17.007,13.841,30.848,30.848,30.848h228.437    c17.007,0,30.848-13.841,30.848-30.839V30.848C401.067,13.841,387.226,0,370.227,0z M384,481.152    c0,7.595-6.178,13.781-13.773,13.781H141.781c-7.603,0-13.781-6.187-13.781-13.773V30.848c0-7.595,6.178-13.781,13.781-13.781    h228.437c7.603,0,13.781,6.187,13.781,13.781V481.152z" />
+        <path
+          d="M392.533,51.2H119.467c-4.71,0-8.533,3.823-8.533,8.533v358.4c0,4.71,3.823,8.533,8.533,8.533h273.067    c4.71,0,8.533-3.823,8.533-8.533v-358.4C401.067,55.023,397.244,51.2,392.533,51.2z M384,409.6H128V68.267h256V409.6z" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </svg>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarColor06">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">(0432) 55-75-14</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">біографія</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-dark bg-primary wrap-normal">
+    <a class="navbar-brand col-3" href="#">Начальник відділу
+      звернень, внутрішньої та зовнішньої комунікації</a>
+    <span class="navbar-brand col-4">Грубар Дмитро Олександрович</span>
+
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor07"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+        <path
+          d="M298.667,25.6h-85.333c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h85.333    c4.71,0,8.533-3.823,8.533-8.533C307.2,29.423,303.377,25.6,298.667,25.6z" />
+        <path
+          d="M358.4,25.6h-8.533c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h8.533    c4.71,0,8.533-3.823,8.533-8.533C366.933,29.423,363.11,25.6,358.4,25.6z" />
+        <path
+          d="M266.598,435.2H245.41c-12.979,0-23.543,10.564-23.543,23.543v4.122c0,12.979,10.564,23.535,23.535,23.535h21.188    c12.979,0,23.543-10.556,23.543-23.535v-4.122C290.133,445.764,279.569,435.2,266.598,435.2z M273.067,462.865    c0,3.567-2.901,6.468-6.468,6.468H245.41c-3.575,0-6.477-2.901-6.477-6.468v-4.122c0-3.575,2.901-6.477,6.477-6.477h21.18    c3.576,0,6.477,2.901,6.477,6.477V462.865z" />
+        <path
+          d="M370.227,0H141.781c-17.007,0-30.848,13.841-30.848,30.848v450.304c0,17.007,13.841,30.848,30.848,30.848h228.437    c17.007,0,30.848-13.841,30.848-30.839V30.848C401.067,13.841,387.226,0,370.227,0z M384,481.152    c0,7.595-6.178,13.781-13.773,13.781H141.781c-7.603,0-13.781-6.187-13.781-13.773V30.848c0-7.595,6.178-13.781,13.781-13.781    h228.437c7.603,0,13.781,6.187,13.781,13.781V481.152z" />
+        <path
+          d="M392.533,51.2H119.467c-4.71,0-8.533,3.823-8.533,8.533v358.4c0,4.71,3.823,8.533,8.533,8.533h273.067    c4.71,0,8.533-3.823,8.533-8.533v-358.4C401.067,55.023,397.244,51.2,392.533,51.2z M384,409.6H128V68.267h256V409.6z" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </svg>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarColor07">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">(0432) 55-15-20</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">біографія</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-dark bg-primary wrap-normal">
+    <a class="navbar-brand col-3" href="#">Начальник відділу
+      надання інформаційних послуг, руху адміністративних справ та діловодства суду</a>
+    <span class="navbar-brand col-4">Матюха Володимир Васильович</span>
+
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor08"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+        <path
+          d="M298.667,25.6h-85.333c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h85.333    c4.71,0,8.533-3.823,8.533-8.533C307.2,29.423,303.377,25.6,298.667,25.6z" />
+        <path
+          d="M358.4,25.6h-8.533c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h8.533    c4.71,0,8.533-3.823,8.533-8.533C366.933,29.423,363.11,25.6,358.4,25.6z" />
+        <path
+          d="M266.598,435.2H245.41c-12.979,0-23.543,10.564-23.543,23.543v4.122c0,12.979,10.564,23.535,23.535,23.535h21.188    c12.979,0,23.543-10.556,23.543-23.535v-4.122C290.133,445.764,279.569,435.2,266.598,435.2z M273.067,462.865    c0,3.567-2.901,6.468-6.468,6.468H245.41c-3.575,0-6.477-2.901-6.477-6.468v-4.122c0-3.575,2.901-6.477,6.477-6.477h21.18    c3.576,0,6.477,2.901,6.477,6.477V462.865z" />
+        <path
+          d="M370.227,0H141.781c-17.007,0-30.848,13.841-30.848,30.848v450.304c0,17.007,13.841,30.848,30.848,30.848h228.437    c17.007,0,30.848-13.841,30.848-30.839V30.848C401.067,13.841,387.226,0,370.227,0z M384,481.152    c0,7.595-6.178,13.781-13.773,13.781H141.781c-7.603,0-13.781-6.187-13.781-13.773V30.848c0-7.595,6.178-13.781,13.781-13.781    h228.437c7.603,0,13.781,6.187,13.781,13.781V481.152z" />
+        <path
+          d="M392.533,51.2H119.467c-4.71,0-8.533,3.823-8.533,8.533v358.4c0,4.71,3.823,8.533,8.533,8.533h273.067    c4.71,0,8.533-3.823,8.533-8.533v-358.4C401.067,55.023,397.244,51.2,392.533,51.2z M384,409.6H128V68.267h256V409.6z" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </svg>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarColor08">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">(0432) 55-15-20</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">біографія</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-dark bg-primary wrap-normal">
+    <a class="navbar-brand col-3" href="#">Начальник відділу
+      забезпечення судового процесу</a>
+    <span class="navbar-brand col-4">Заболотна Ольга Дмитрівна</span>
+
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor09"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+        <path
+          d="M298.667,25.6h-85.333c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h85.333    c4.71,0,8.533-3.823,8.533-8.533C307.2,29.423,303.377,25.6,298.667,25.6z" />
+        <path
+          d="M358.4,25.6h-8.533c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h8.533    c4.71,0,8.533-3.823,8.533-8.533C366.933,29.423,363.11,25.6,358.4,25.6z" />
+        <path
+          d="M266.598,435.2H245.41c-12.979,0-23.543,10.564-23.543,23.543v4.122c0,12.979,10.564,23.535,23.535,23.535h21.188    c12.979,0,23.543-10.556,23.543-23.535v-4.122C290.133,445.764,279.569,435.2,266.598,435.2z M273.067,462.865    c0,3.567-2.901,6.468-6.468,6.468H245.41c-3.575,0-6.477-2.901-6.477-6.468v-4.122c0-3.575,2.901-6.477,6.477-6.477h21.18    c3.576,0,6.477,2.901,6.477,6.477V462.865z" />
+        <path
+          d="M370.227,0H141.781c-17.007,0-30.848,13.841-30.848,30.848v450.304c0,17.007,13.841,30.848,30.848,30.848h228.437    c17.007,0,30.848-13.841,30.848-30.839V30.848C401.067,13.841,387.226,0,370.227,0z M384,481.152    c0,7.595-6.178,13.781-13.773,13.781H141.781c-7.603,0-13.781-6.187-13.781-13.773V30.848c0-7.595,6.178-13.781,13.781-13.781    h228.437c7.603,0,13.781,6.187,13.781,13.781V481.152z" />
+        <path
+          d="M392.533,51.2H119.467c-4.71,0-8.533,3.823-8.533,8.533v358.4c0,4.71,3.823,8.533,8.533,8.533h273.067    c4.71,0,8.533-3.823,8.533-8.533v-358.4C401.067,55.023,397.244,51.2,392.533,51.2z M384,409.6H128V68.267h256V409.6z" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </svg>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarColor09">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">(0432) 55-15-20</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">біографія</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-dark bg-primary wrap-normal">
+    <a class="navbar-brand col-3" href="#">Начальник відділу
+      бухгалтерського обліку та звітності</a>
+    <span class="navbar-brand col-4">Ватаманюк Тетяна Пилипівна</span>
+
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor10"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+        <path
+          d="M298.667,25.6h-85.333c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h85.333    c4.71,0,8.533-3.823,8.533-8.533C307.2,29.423,303.377,25.6,298.667,25.6z" />
+        <path
+          d="M358.4,25.6h-8.533c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h8.533    c4.71,0,8.533-3.823,8.533-8.533C366.933,29.423,363.11,25.6,358.4,25.6z" />
+        <path
+          d="M266.598,435.2H245.41c-12.979,0-23.543,10.564-23.543,23.543v4.122c0,12.979,10.564,23.535,23.535,23.535h21.188    c12.979,0,23.543-10.556,23.543-23.535v-4.122C290.133,445.764,279.569,435.2,266.598,435.2z M273.067,462.865    c0,3.567-2.901,6.468-6.468,6.468H245.41c-3.575,0-6.477-2.901-6.477-6.468v-4.122c0-3.575,2.901-6.477,6.477-6.477h21.18    c3.576,0,6.477,2.901,6.477,6.477V462.865z" />
+        <path
+          d="M370.227,0H141.781c-17.007,0-30.848,13.841-30.848,30.848v450.304c0,17.007,13.841,30.848,30.848,30.848h228.437    c17.007,0,30.848-13.841,30.848-30.839V30.848C401.067,13.841,387.226,0,370.227,0z M384,481.152    c0,7.595-6.178,13.781-13.773,13.781H141.781c-7.603,0-13.781-6.187-13.781-13.773V30.848c0-7.595,6.178-13.781,13.781-13.781    h228.437c7.603,0,13.781,6.187,13.781,13.781V481.152z" />
+        <path
+          d="M392.533,51.2H119.467c-4.71,0-8.533,3.823-8.533,8.533v358.4c0,4.71,3.823,8.533,8.533,8.533h273.067    c4.71,0,8.533-3.823,8.533-8.533v-358.4C401.067,55.023,397.244,51.2,392.533,51.2z M384,409.6H128V68.267h256V409.6z" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </svg>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarColor10">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">(0432) 55-75-03</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">біографія</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-dark bg-primary wrap-normal">
+    <a class="navbar-brand col-3" href="#">Начальника відділу
+      узагальнення судової практики</a>
+    <span class="navbar-brand col-4">Присяжна Оксана Миколаївна</span>
+
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor11"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+        <path
+          d="M298.667,25.6h-85.333c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h85.333    c4.71,0,8.533-3.823,8.533-8.533C307.2,29.423,303.377,25.6,298.667,25.6z" />
+        <path
+          d="M358.4,25.6h-8.533c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h8.533    c4.71,0,8.533-3.823,8.533-8.533C366.933,29.423,363.11,25.6,358.4,25.6z" />
+        <path
+          d="M266.598,435.2H245.41c-12.979,0-23.543,10.564-23.543,23.543v4.122c0,12.979,10.564,23.535,23.535,23.535h21.188    c12.979,0,23.543-10.556,23.543-23.535v-4.122C290.133,445.764,279.569,435.2,266.598,435.2z M273.067,462.865    c0,3.567-2.901,6.468-6.468,6.468H245.41c-3.575,0-6.477-2.901-6.477-6.468v-4.122c0-3.575,2.901-6.477,6.477-6.477h21.18    c3.576,0,6.477,2.901,6.477,6.477V462.865z" />
+        <path
+          d="M370.227,0H141.781c-17.007,0-30.848,13.841-30.848,30.848v450.304c0,17.007,13.841,30.848,30.848,30.848h228.437    c17.007,0,30.848-13.841,30.848-30.839V30.848C401.067,13.841,387.226,0,370.227,0z M384,481.152    c0,7.595-6.178,13.781-13.773,13.781H141.781c-7.603,0-13.781-6.187-13.781-13.773V30.848c0-7.595,6.178-13.781,13.781-13.781    h228.437c7.603,0,13.781,6.187,13.781,13.781V481.152z" />
+        <path
+          d="M392.533,51.2H119.467c-4.71,0-8.533,3.823-8.533,8.533v358.4c0,4.71,3.823,8.533,8.533,8.533h273.067    c4.71,0,8.533-3.823,8.533-8.533v-358.4C401.067,55.023,397.244,51.2,392.533,51.2z M384,409.6H128V68.267h256V409.6z" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </svg>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarColor11">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">(0432) 55-15-20</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">біографія</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-dark bg-primary wrap-normal">
+    <a class="navbar-brand col-3" href="#">Начальник відділу
+      аналітично-статистичної роботи суду</a>
+    <span class="navbar-brand col-4">Бакута Ірина Віталіївна</span>
+
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor12"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+        <path
+          d="M298.667,25.6h-85.333c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h85.333    c4.71,0,8.533-3.823,8.533-8.533C307.2,29.423,303.377,25.6,298.667,25.6z" />
+        <path
+          d="M358.4,25.6h-8.533c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h8.533    c4.71,0,8.533-3.823,8.533-8.533C366.933,29.423,363.11,25.6,358.4,25.6z" />
+        <path
+          d="M266.598,435.2H245.41c-12.979,0-23.543,10.564-23.543,23.543v4.122c0,12.979,10.564,23.535,23.535,23.535h21.188    c12.979,0,23.543-10.556,23.543-23.535v-4.122C290.133,445.764,279.569,435.2,266.598,435.2z M273.067,462.865    c0,3.567-2.901,6.468-6.468,6.468H245.41c-3.575,0-6.477-2.901-6.477-6.468v-4.122c0-3.575,2.901-6.477,6.477-6.477h21.18    c3.576,0,6.477,2.901,6.477,6.477V462.865z" />
+        <path
+          d="M370.227,0H141.781c-17.007,0-30.848,13.841-30.848,30.848v450.304c0,17.007,13.841,30.848,30.848,30.848h228.437    c17.007,0,30.848-13.841,30.848-30.839V30.848C401.067,13.841,387.226,0,370.227,0z M384,481.152    c0,7.595-6.178,13.781-13.773,13.781H141.781c-7.603,0-13.781-6.187-13.781-13.773V30.848c0-7.595,6.178-13.781,13.781-13.781    h228.437c7.603,0,13.781,6.187,13.781,13.781V481.152z" />
+        <path
+          d="M392.533,51.2H119.467c-4.71,0-8.533,3.823-8.533,8.533v358.4c0,4.71,3.823,8.533,8.533,8.533h273.067    c4.71,0,8.533-3.823,8.533-8.533v-358.4C401.067,55.023,397.244,51.2,392.533,51.2z M384,409.6H128V68.267h256V409.6z" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </svg>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarColor12">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">(0432) 55-75-07</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">біографія</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-dark bg-primary wrap-normal">
+    <a class="navbar-brand col-3" href="#">Начальник відділу
+      матеріально-технічного та господарського забезпечення</a>
+    <span class="navbar-brand col-4">Рудий Олег Олександрович</span>
+
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor13"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+        <path
+          d="M298.667,25.6h-85.333c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h85.333    c4.71,0,8.533-3.823,8.533-8.533C307.2,29.423,303.377,25.6,298.667,25.6z" />
+        <path
+          d="M358.4,25.6h-8.533c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h8.533    c4.71,0,8.533-3.823,8.533-8.533C366.933,29.423,363.11,25.6,358.4,25.6z" />
+        <path
+          d="M266.598,435.2H245.41c-12.979,0-23.543,10.564-23.543,23.543v4.122c0,12.979,10.564,23.535,23.535,23.535h21.188    c12.979,0,23.543-10.556,23.543-23.535v-4.122C290.133,445.764,279.569,435.2,266.598,435.2z M273.067,462.865    c0,3.567-2.901,6.468-6.468,6.468H245.41c-3.575,0-6.477-2.901-6.477-6.468v-4.122c0-3.575,2.901-6.477,6.477-6.477h21.18    c3.576,0,6.477,2.901,6.477,6.477V462.865z" />
+        <path
+          d="M370.227,0H141.781c-17.007,0-30.848,13.841-30.848,30.848v450.304c0,17.007,13.841,30.848,30.848,30.848h228.437    c17.007,0,30.848-13.841,30.848-30.839V30.848C401.067,13.841,387.226,0,370.227,0z M384,481.152    c0,7.595-6.178,13.781-13.773,13.781H141.781c-7.603,0-13.781-6.187-13.781-13.773V30.848c0-7.595,6.178-13.781,13.781-13.781    h228.437c7.603,0,13.781,6.187,13.781,13.781V481.152z" />
+        <path
+          d="M392.533,51.2H119.467c-4.71,0-8.533,3.823-8.533,8.533v358.4c0,4.71,3.823,8.533,8.533,8.533h273.067    c4.71,0,8.533-3.823,8.533-8.533v-358.4C401.067,55.023,397.244,51.2,392.533,51.2z M384,409.6H128V68.267h256V409.6z" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </svg>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarColor13">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">(0432) 55-15-12</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">біографія</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-dark bg-primary wrap-normal">
+    <a class="navbar-brand col-3" href="#">Начальник відділу
+      аудиту, ревізії та планово-фінансової діяльності</a>
+    <span class="navbar-brand col-4">Савченко Олена Олегівна</span>
+
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor14"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+        <path
+          d="M298.667,25.6h-85.333c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h85.333    c4.71,0,8.533-3.823,8.533-8.533C307.2,29.423,303.377,25.6,298.667,25.6z" />
+        <path
+          d="M358.4,25.6h-8.533c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h8.533    c4.71,0,8.533-3.823,8.533-8.533C366.933,29.423,363.11,25.6,358.4,25.6z" />
+        <path
+          d="M266.598,435.2H245.41c-12.979,0-23.543,10.564-23.543,23.543v4.122c0,12.979,10.564,23.535,23.535,23.535h21.188    c12.979,0,23.543-10.556,23.543-23.535v-4.122C290.133,445.764,279.569,435.2,266.598,435.2z M273.067,462.865    c0,3.567-2.901,6.468-6.468,6.468H245.41c-3.575,0-6.477-2.901-6.477-6.468v-4.122c0-3.575,2.901-6.477,6.477-6.477h21.18    c3.576,0,6.477,2.901,6.477,6.477V462.865z" />
+        <path
+          d="M370.227,0H141.781c-17.007,0-30.848,13.841-30.848,30.848v450.304c0,17.007,13.841,30.848,30.848,30.848h228.437    c17.007,0,30.848-13.841,30.848-30.839V30.848C401.067,13.841,387.226,0,370.227,0z M384,481.152    c0,7.595-6.178,13.781-13.773,13.781H141.781c-7.603,0-13.781-6.187-13.781-13.773V30.848c0-7.595,6.178-13.781,13.781-13.781    h228.437c7.603,0,13.781,6.187,13.781,13.781V481.152z" />
+        <path
+          d="M392.533,51.2H119.467c-4.71,0-8.533,3.823-8.533,8.533v358.4c0,4.71,3.823,8.533,8.533,8.533h273.067    c4.71,0,8.533-3.823,8.533-8.533v-358.4C401.067,55.023,397.244,51.2,392.533,51.2z M384,409.6H128V68.267h256V409.6z" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </svg>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarColor14">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">(0432) 55-15-20</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">біографія</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-dark bg-primary wrap-normal">
+    <a class="navbar-brand col-3" href="#">Начальник відділу
+      по роботі з персоналом</a>
+    <span class="navbar-brand col-4">Тищишина Альона Іванівна</span>
+
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor15"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1"
+        x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+        <path
+          d="M298.667,25.6h-85.333c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h85.333    c4.71,0,8.533-3.823,8.533-8.533C307.2,29.423,303.377,25.6,298.667,25.6z" />
+        <path
+          d="M358.4,25.6h-8.533c-4.71,0-8.533,3.823-8.533,8.533c0,4.71,3.823,8.533,8.533,8.533h8.533    c4.71,0,8.533-3.823,8.533-8.533C366.933,29.423,363.11,25.6,358.4,25.6z" />
+        <path
+          d="M266.598,435.2H245.41c-12.979,0-23.543,10.564-23.543,23.543v4.122c0,12.979,10.564,23.535,23.535,23.535h21.188    c12.979,0,23.543-10.556,23.543-23.535v-4.122C290.133,445.764,279.569,435.2,266.598,435.2z M273.067,462.865    c0,3.567-2.901,6.468-6.468,6.468H245.41c-3.575,0-6.477-2.901-6.477-6.468v-4.122c0-3.575,2.901-6.477,6.477-6.477h21.18    c3.576,0,6.477,2.901,6.477,6.477V462.865z" />
+        <path
+          d="M370.227,0H141.781c-17.007,0-30.848,13.841-30.848,30.848v450.304c0,17.007,13.841,30.848,30.848,30.848h228.437    c17.007,0,30.848-13.841,30.848-30.839V30.848C401.067,13.841,387.226,0,370.227,0z M384,481.152    c0,7.595-6.178,13.781-13.773,13.781H141.781c-7.603,0-13.781-6.187-13.781-13.773V30.848c0-7.595,6.178-13.781,13.781-13.781    h228.437c7.603,0,13.781,6.187,13.781,13.781V481.152z" />
+        <path
+          d="M392.533,51.2H119.467c-4.71,0-8.533,3.823-8.533,8.533v358.4c0,4.71,3.823,8.533,8.533,8.533h273.067    c4.71,0,8.533-3.823,8.533-8.533v-358.4C401.067,55.023,397.244,51.2,392.533,51.2z M384,409.6H128V68.267h256V409.6z" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </svg>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarColor15">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">(0432) 55-15-23</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">inbox@7aa.court.gov.ua</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">біографія</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
 
 </body>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </html>
